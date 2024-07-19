@@ -1,0 +1,33 @@
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Cliente {
+    private String nome;
+    private Endereco endereco;
+
+   public Cliente() {
+      throw new Error("Unresolved compilation problems: \n\tThe import lombok cannot be resolved\n\tThe import lombok cannot be resolved\n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tGetter cannot be resolved to a type\n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tSetter cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n");
+   }
+
+   @Generated
+   public String getNome() {
+      throw new Error("Unresolved compilation problems: \n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tGetter cannot be resolved to a type\n");
+   }
+
+   @Generated
+   public Endereco getEndereco() {
+      throw new Error("Unresolved compilation problem: \n");
+   }
+
+   @Generated
+   public void setNome(String var1) {
+      throw new Error("Unresolved compilation problems: \n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tlombok cannot be resolved to a type\n\tEndereco cannot be resolved to a type\n\tSetter cannot be resolved to a type\n");
+   }
+
+   @Generated
+   public void setEndereco(Endereco var1) {
+      throw new Error("Unresolved compilation problem: \n");
+   }
+}

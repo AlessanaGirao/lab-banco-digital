@@ -1,0 +1,18 @@
+import java.time.LocalDateTime;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Transacao {
+    private LocalDateTime dataHora;
+    private String descricao;
+    private double valor;
+    
+    public Transacao(String descricao, double valor) {
+        this.dataHora = LocalDateTime.now();
+        this.descricao = descricao;
+        this.valor = valor;
+    }
+}
